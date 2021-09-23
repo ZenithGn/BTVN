@@ -11,7 +11,7 @@ int main()
 
 int main()
 {
-    std::cout << "Học sinh Trường THPT Nguyễn Chí Thanh/n/ Sống có trách nhiệm với bản thân";
+    std::cout << "Học sinh Trường THPT Nguyễn Chí Thanh\n\Sống có trách nhiệm với bản thân";
 }
 
 //câu 3
