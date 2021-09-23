@@ -38,31 +38,36 @@ using namespace std;
 
 int main()
 {
-    float a;
+    float a,c,s;
     cout<<"Nhập độ dài cạnh a = ";
     cin>>a;
+    c= 4*a;
+    s= a*a;
     
-    cout<<"Chu vi hình vuông là : "<<4*a<<"\n";
-    cout<<"Diện tích hình vuông là : "<<a*a<<"\n";
+    cout<<"Chu vi hình vuông là : "<<c<<"\n";
+    cout<<"Diện tích hình vuông là : "<<s;
 
     return 0;
 }
 
 //câu 5
-include <iostream>
+#include <iostream>
 
 using namespace std;
 
 int main()
 {
-    float dai,rong;
+    float dai,rong,c,s;
     cout<<"Nhập chiều dài : ";
     cin>>dai;
     cout<<"Nhập chiều rộng : ";
     cin>>rong;
     
-    cout<<"Chu vi hình chữ nhật là : "<<dai*rong<<"\n";
-    cout<<"Diện tích hình chữ nhật là : "<<(dai+rong)*2;
+    c= dai*rong;
+    s= (dai+rong)*2;
+    
+    cout<<"Chu vi hình chữ nhật là : "<<c<<"\n";
+    cout<<"Diện tích hình chữ nhật là : "<<s;
     
     return 0;
 }
