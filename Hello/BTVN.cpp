@@ -31,4 +31,42 @@ int main()
 }
 
 
-//câu 4
+/*câu 4
+chịu cái phần diện tích, ko biết sửa
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a;
+    cout<<"Nhập độ dài cạnh a = ";
+    cin>>a;
+    
+    cout<<"Chu vi hình vuông là : "<<4*a<<"\n";
+    cout<<"Diện tích hình vuông là : pow(a, 2)";
+
+    return 0;
+}
+
+//câu 5
+include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float dai,rong;
+    cout<<"Nhập chiều dài : ";
+    cin>>dai;
+    cout<<"Nhập chiều rộng : ";
+    cin>>rong;
+    
+    cout<<"Chu vi hình chữ nhật là : "<<dai*rong<<"\n";
+    cout<<"Diện tích hình chữ nhật là : "<<(dai+rong)*2;
+    
+    return 0;
+}
+
+//câu 6
