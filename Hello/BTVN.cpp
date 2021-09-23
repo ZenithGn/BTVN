@@ -31,9 +31,7 @@ int main()
 }
 
 
-/*câu 4
-chịu cái phần diện tích, ko biết sửa
-*/
+//câu 4
 #include <iostream>
 
 using namespace std;
@@ -45,7 +43,7 @@ int main()
     cin>>a;
     
     cout<<"Chu vi hình vuông là : "<<4*a<<"\n";
-    cout<<"Diện tích hình vuông là : pow(a, 2)";
+    cout<<"Diện tích hình vuông là : "<<a*a<<"\n";
 
     return 0;
 }
@@ -70,3 +68,19 @@ int main()
 }
 
 //câu 6
+#include <iostream>
+#define PI 3.14159
+
+using namespace std;
+
+int main()
+{
+    float R;
+    cout<<"Nhập bán kính : ";
+    cin>>R;
+ 
+    cout<<"Chu vi hình tròn là : "<<2*PI*R<<"\n";
+    cout<<"Diện tích hình tròn là : "<<PI*R*R<<"\n";
+    
+    return 0;
+}
