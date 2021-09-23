@@ -38,7 +38,7 @@ using namespace std;
 
 int main()
 {
-    float a,c,s;
+    int a,c,s;
     cout<<"Nhập độ dài cạnh a = ";
     cin>>a;
     c= 4*a;
@@ -57,7 +57,7 @@ using namespace std;
 
 int main()
 {
-    float dai,rong,c,s;
+    int dai,rong,c,s;
     cout<<"Nhập chiều dài : ";
     cin>>dai;
     cout<<"Nhập chiều rộng : ";
@@ -74,18 +74,21 @@ int main()
 
 //câu 6
 #include <iostream>
-#define PI 3.14159
+#define PI 3.14159265359
 
 using namespace std;
 
 int main()
 {
-    float R;
+    float R,c,s;
     cout<<"Nhập bán kính : ";
     cin>>R;
+    c= 2*PI*R;
+    s= PI*R*R;
  
-    cout<<"Chu vi hình tròn là : "<<2*PI*R<<"\n";
-    cout<<"Diện tích hình tròn là : "<<PI*R*R<<"\n";
+    cout<<"Chu vi hình tròn là : "<<c<<"\n";
+    cout<<"Diện tích hình tròn là : "<<s;
     
     return 0;
 }
+
