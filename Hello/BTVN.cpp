@@ -15,4 +15,20 @@ int main()
 }
 
 
-//câu 3
+//câu 3a
+#include <iostream>
+
+int main()
+{
+    std::cout << "*\n\**\n\***\n\****";
+}
+//câu 3b
+#include <iostream>
+
+int main()
+{
+    std::cout << "*****\n\*****\n\*****";
+}
+
+
+//câu 4
