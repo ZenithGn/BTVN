@@ -92,3 +92,55 @@ int main()
     return 0;
 }
 
+//hoặc
+#include <iostream>
+
+int main()
+{
+    float R,c,s;
+    std::cout<<"Nhập bán kính : ";
+    std::cin>>R;
+    
+    c= 2*3.14*R;
+    s= 3.14*R*R;
+ 
+    std::cout<<"Chu vi hình tròn là : "<<c<<"\n";
+    std::cout<<"Diện tích hình tròn là : "<<s;
+    
+    return 0;
+}
+
+
+/*câu 7
+khi đang chạy code trên terminal nhập hết a,b,c và chỉ ra chu vi và P thì đừng vội mà bấm stop. Lúc đó bấm "Enter" và nhập "Số P" mới tính ra được trên terminal và Enter là sẽ ra diện tích tam giác. Hơi cồng kềnh sẽ sửa lại sau.
+*/
+
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main() {
+ 
+     float a,b,c,p,s;
+ 
+     cout << "Nhập độ dài cạnh a= "; 
+     cin>>a;
+ 
+      cout << "Nhập độ dài cạnh b= "; 
+      cin>>b;
+ 
+      cout << "Nhập độ dài cạnh c= "; 
+      cin>>c;
+
+      cout << "Chu vi tam giác là: " << a+b+c <<endl;
+      
+      cout << "p= " << (a+b+c)/2;
+      cin >> p; 
+ 
+      s= sqrt(p*(p-a)*(p-b)*(p-c));
+      
+      cout << "Diện tích tam giác là: " <<s ; 
+      
+ return 0;
+}
