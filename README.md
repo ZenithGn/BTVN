@@ -7,5 +7,5 @@
 # Đề : 
  <p align="left">
   
- <a href="https://cdn.discordapp.com/attachments/889710088879767610/890550924995620874/Screenshot_2021-09-23_at_17-49-30_1_-_Bai-tap-C-11_Co-ban_pdf.png" target="_blank"> <img src="https://cdn.discordapp.com/attachments/889710088879767610/890552484316184586/D.png" width="45" height="45"/> </a> 
+ <img src="https://cdn.discordapp.com/attachments/889710088879767610/890550924995620874/Screenshot_2021-09-23_at_17-49-30_1_-_Bai-tap-C-11_Co-ban_pdf.png" alt="đề">
 
