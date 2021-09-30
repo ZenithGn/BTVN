@@ -144,3 +144,24 @@ int main() {
       
  return 0;
 }
+
+// câu 8
+
+#include <math.h>
+#include <iostream>
+
+int main() {
+    int xA, yA, xB, yB, xM, yM;
+
+    std::cout<<"Nhập X và Y của A vào đây";
+    std::cin>>xA >>yA;
+    std::cout<<"Nhập X và Y của B vào đây";
+    std::cin>>xB >>yB;
+
+    xM = (xA + xB)/2;
+    yM = (yA + yB)/2;
+    
+    std::cout<< "Vậy xM là : "<<xM<<"\n";
+    std::cout<<"Vậy yM là :"<<yM;
+    return 0;
+}
