@@ -165,3 +165,25 @@ int main() {
     std::cout<<"Vậy yM là :"<<yM;
     return 0;
 }
+
+// câu 9
+#include <math.h>
+#include <iostream>
+
+int main() {
+    int xA, yA, xB, yB, xC, yC, xG, yG;
+
+    std::cout<<"Nhập X và Y của A vào đây";
+    std::cin>>xA >>yA;
+    std::cout<<"Nhập X và Y của B vào đây";
+    std::cin>>xB >>yB;
+    std::cout<<"Nhập X và Y của C vào đây";
+    std::cin>>xC >>yC;
+
+    xG = (xA+xB+xC)/3;
+    yG = (yA+yB+yC)/3;
+    
+    std::cout<< "Vậy xG là : "<<xG<<"\n";
+    std::cout<<"Vậy yG là :"<<yG;
+    return 0;
+}
